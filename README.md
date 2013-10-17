@@ -35,10 +35,10 @@ Calculate the area of a 4x4 square whose bottom left corner sits at the origin o
 ```js
 area([
  [0, 0],
- [0, 1],
- [1, 1],
- [1, 0]
-]) === 1
+ [0, 4],
+ [4, 4],
+ [4, 0]
+]) === 16
 ```
 
 ## License
