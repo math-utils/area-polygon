@@ -1,0 +1,11 @@
+{
+  "name": "area-polygon",
+  "description": "Calculate the area of a simple polygon",
+  "version": "0.0.1",
+  "license": "MIT",
+  "repo": "math-utils/area-polygon",
+  "scripts": [
+    "index.js"
+  ],
+  "main": "index.js"
+}
