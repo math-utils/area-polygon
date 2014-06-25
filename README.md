@@ -8,7 +8,7 @@ Calculate the area of a simple 2D polygon given its vertices.
 var area = require('area-polygon')
 ```
 
-### area(points)
+### area(points, signed)
 
 `points` must consistent of `point`s that are either of the form:
 
@@ -27,6 +27,8 @@ or
 
 The `points` must also trace the edge of the polygon.
 The last `point` should return to the origin.
+
+`signed` is `true` or `false`(default). If true fucntion returns the signed area of the polygon. It is helpful to determine the orientation of points in polygon. Area is positive if orientation is counter-clockwise and negative for clockwise.
 
 ## Example
 

@@ -1,15 +1,19 @@
-module.exports = function (points) {
+module.exports = function (points,signed) {
   var l = points.length
   var det = 0
+  var isSigned = signed || false
 
   points = points.map(normalize)
-  points = points.concat(points[0])
+  if (points[0] != points[points.length -1])  
+    points = points.concat(points[0])
 
   for (var i = 0; i < l; i++)
     det += points[i].x * points[i + 1].y
       - points[i].y * points[i + 1].x
-
-  return Math.abs(det) / 2
+  if (isSigned)
+    return det / 2
+  else
+    return Math.abs(det) / 2
 }
 
 function normalize(point) {
