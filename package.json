@@ -1,7 +1,7 @@
 {
   "name": "area-polygon",
   "description": "Calculate the area of a simple polygon",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "author": {
     "name": "Jonathan Ong",
     "email": "me@jongleberry.com",
