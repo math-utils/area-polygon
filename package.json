@@ -9,18 +9,11 @@
     "twitter": "https://twitter.com/jongleberry"
   },
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/math-utils/area-polygon.git"
-  },
-  "bugs": {
-    "mail": "me@jongleberry.com",
-    "url": "https://github.com/math-utils/area-polygon/issues"
-  },
+  "repository": "math-utils/area-polygon",
   "devDependencies": {
     "mocha": "*"
   },
   "scripts": {
-    "test": "make test;"
+    "test": "mocha --reporter spec"
   }
 }
