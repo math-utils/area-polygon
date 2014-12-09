@@ -17,11 +17,9 @@ module.exports = function (points,signed) {
 }
 
 function normalize(point) {
-  if (Array.isArray(point))
-    return {
-      x: point[0],
-      y: point[1]
-    }
-  else
-    return point
+  if (!Array.isArray(point)) return point
+  return {
+    x: point[0],
+    y: point[1]
+  }
 }
