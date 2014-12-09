@@ -1,7 +1,7 @@
 {
   "name": "area-polygon",
   "description": "Calculate the area of a simple polygon",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Jonathan Ong <me@jongleberry.com> (http://jongleberry.com)",
   "license": "MIT",
   "repository": "math-utils/area-polygon",
@@ -14,7 +14,9 @@
     "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot",
     "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter dot"
   },
-  "files": ["index.js"],
+  "files": [
+    "index.js"
+  ],
   "keywords": [
     "area",
     "polygon"
