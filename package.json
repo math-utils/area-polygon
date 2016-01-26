@@ -6,7 +6,7 @@
   "license": "MIT",
   "repository": "math-utils/area-polygon",
   "devDependencies": {
-    "mocha": "2",
+    "mocha": "2.4.1",
     "istanbul": "0"
   },
   "scripts": {
